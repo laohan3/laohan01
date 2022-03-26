@@ -1,1 +1,11 @@
+<<<<<<< HEAD
+
+修改之后的new.txt文件,已经解决了冲突
+
+
+
+
 GitRepostory new.txt
+=======
+new
+>>>>>>> ef36078b41ed8afbfaffc8e082659dfa924cb2f9
