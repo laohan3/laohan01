@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 c.txt  laohan01zaicixiugai.................
+=======
+c.ddddddddddddddddddddddddddddddddddddddddddddtxt  new new newe new wnrnwe
+>>>>>>> 1aee40755122a828e4d88e2abd4b4488be14882b
