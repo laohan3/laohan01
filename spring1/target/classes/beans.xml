@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student0" class="com.bjpowernode.Student" autowire="byName">
+    <!--   调用对象的set方法,为属性赋值  -->
+        <property name="id" value="101"/>
+        <property name="name" value="张三"/>
+<!--        <property name="school" ref="school01"/>-->
+    <!--有参构造-->
+<!--        <constructor-arg name="id" value="111"/>-->
+<!--        <constructor-arg name="name" value="李四"/>-->
+<!--        <constructor-arg name="school" ref="school01"/>-->
+
+<!--        <constructor-arg index="0" value="102"/>-->
+<!--        <constructor-arg index="1" value="20"/>-->
+<!--        <constructor-arg index="2" value="zhangsan"/>-->
+<!--        <constructor-arg index="3" ref="school01"/>-->
+
+
+    </bean>
+    <bean id="school" class="com.bjpowernode.School">
+        <property name="name" value="乒乓小学"/>
+        <property name="address" value="山东"/>
+
+    </bean>
+    <bean id="school" class="com.bjpowernode.School">
+        <property name="name" value="其他小学"/>
+        <property name="address" value="伊朗"/>
+    </bean>
+
+    <bean id="myDate" class="java.util.Date"/>
+
+
+</beans>
