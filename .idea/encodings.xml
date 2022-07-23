@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+<<<<<<< HEAD
+    <file url="file://$PROJECT_DIR$/laohan_admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/laohan_framework/src/main/java" charset="UTF-8" />
+=======
+    <file url="file://$PROJECT_DIR$/spring1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring1/src/main/resources" charset="UTF-8" />
+>>>>>>> 420dc3d48c8e4a0caf2c81660ff3864cbe9be080
+  </component>
+</project>

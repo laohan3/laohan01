@@ -1,0 +1,36 @@
+server:
+  port: 7777
+  servlet:
+    encoding:
+      force: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sg_blog?serverTimezone=UTC
+    username: root
+    password: root
+    servlet:
+      multipart:
+        max-file-size: 2MB
+        max-request-size: 5MB
+
+  redis:
+    port: 6379
+    host: 192.168.45.128
+    password: 123456
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+oss:
+  accessKey: cu5kFJWk-SX9Lu1GKzpt_fDymcxoYtmt9zljZs0Y
+  secretKey: wezVNRMPcPbtNlt17iBH4ld7fTrjIfOSebQ7gTbA
+  bucket: laohan-blog

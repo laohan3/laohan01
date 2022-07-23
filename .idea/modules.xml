@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LHBlog.iml" filepath="$PROJECT_DIR$/LHBlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laohan_admin/laohan_admin.iml" filepath="$PROJECT_DIR$/laohan_admin/laohan_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laohan_blog/laohan_blog.iml" filepath="$PROJECT_DIR$/laohan_blog/laohan_blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/laohan_framework/laohan_framework.iml" filepath="$PROJECT_DIR$/laohan_framework/laohan_framework.iml" />
+    </modules>
+  </component>
+</project>
